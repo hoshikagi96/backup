@@ -1,0 +1,12 @@
+package test1;
+
+public class Hensuu {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		String name="高橋";
+		System.out.println(name);
+
+	}
+
+}

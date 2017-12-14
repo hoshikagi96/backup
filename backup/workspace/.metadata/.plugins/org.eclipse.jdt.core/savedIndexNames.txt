@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+C:\Users\internousdev\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\workspace\.metadata\.plugins\org.eclipse.jdt.core
+3542312921.index
+4222298462.index
+4145184385.index
+2250130128.index

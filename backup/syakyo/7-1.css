@@ -1,0 +1,25 @@
+.box1{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+}
+.box2{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.box3{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+img{
+    float:left;
+    width:200px;
+}
+p{
+    clear:left;
+}

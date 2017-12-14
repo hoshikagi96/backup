@@ -1,0 +1,31 @@
+
+public class Test {
+	public static void main(String[] args){
+		Person taro=new Person();
+		taro.name="山田太郎";
+		taro.age=20;
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+		
+		Person jiro=new Person();
+		jiro.name="木村次郎";
+		jiro.age=18;
+	    System.out.println(jiro.name);
+	    System.out.println(jiro.age);
+	    
+	    Person hana=new Person();
+	    hana.name="鈴木花子";
+	    hana.age=16;
+	    System.out.println(hana.name);
+	    System.out.println(hana.age);
+	    
+	    Person miho=new Person();
+	    miho.name="高橋美穂";
+	    miho.age=22;
+	    miho.phoneNumber="03-0000-0000";
+	    miho.address="東京都葛飾区";
+	    System.out.println(miho.name);
+	    System.out.println(miho.age);
+	}
+
+}

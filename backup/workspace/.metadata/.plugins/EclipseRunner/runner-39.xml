@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="Capsule"/>
+<launchConfiguration bookmark="false" name="Enzan"/>
+<launchConfiguration bookmark="false" name="Forkiso"/>
+<launchConfiguration bookmark="false" name="Hairetsu"/>
+<launchConfiguration bookmark="false" name="Hairetsu (1)"/>
+<launchConfiguration bookmark="false" name="Hello1"/>
+<launchConfiguration bookmark="false" name="HelloWorld"/>
+<launchConfiguration bookmark="false" name="Hensuu"/>
+<launchConfiguration bookmark="false" name="Ifkiso"/>
+<launchConfiguration bookmark="false" name="Ifouyou"/>
+<launchConfiguration bookmark="false" name="Kasanshi"/>
+<launchConfiguration bookmark="false" name="Switch"/>
+<launchConfiguration bookmark="false" name="Test"/>
+<launchConfiguration bookmark="false" name="Test (1)"/>
+<launchConfiguration bookmark="false" name="Test (2)"/>
+<launchConfiguration bookmark="false" name="test"/>
+<launchConfiguration bookmark="false" name="test1"/>
+</category>
+</runner>
