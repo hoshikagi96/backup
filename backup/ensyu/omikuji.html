@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="omikuji.css">
+    </head>
+    
+    <body>
+        <div id="top">?</div>
+        <div id="button">今日の運勢は？</div>
+        
+        <script>
+            (function(){
+                var butoonEl=
+                    window.top.document.getElementById('button');
+                    butoonEl.addEventListener('click',
+                        function(){
+                            var results=['大吉','小吉','中吉','凶']
+                            var result=Math.floor(Math.random()*4);
+                            document.getElementById('top').innerHTML=results[result];
+                        });
+                    butoonEl.addEventListener('mousedown',
+                        function(){
+                            this.className='pushed';
+                        });                      
+                    butoonEl.addEventListener('mouseup',
+                        function(){
+                            this.className='';
+                        });                              
+            })();
+        </script>
+    </body>
+</html>
