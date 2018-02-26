@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+/Users/hoshikagi96/backup/backup/backup/workspase2/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+722610765.index
+166091861.index
+1224972598.index
+1781912455.index
+3262435090.index
