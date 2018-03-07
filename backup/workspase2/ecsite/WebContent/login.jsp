@@ -76,6 +76,7 @@
       </div>
     </div>
   </div>
+  <p>管理者向けログイン画面は<a href='<s:url action="AdminLoginAction" />'>こちら</a></p>
   <div id="footer">
    <div id="pr"></div>
   </div>

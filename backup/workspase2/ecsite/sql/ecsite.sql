@@ -38,8 +38,20 @@ create table user_buy_item_transaction(
   insert_date datetime,
   delete_date datetime
 );
+drop table if exists login_admin_transaction;
+
+create table login_admin_transaction(
+  id int not null primary key auto_increment,
+  admin_id varchar(16) unique,
+  admin_pass varchar(16),
+  admin_name varchar(50),
+  insert_date datetime,
+  updated_date datetime
+);
 
 
 INSERT INTO item_info_transaction(item_name,item_price,item_stock) VALUES("ノートBOOK",100,50);
 
 INSERT INTO login_user_transaction(login_id,login_pass,user_name) VALUES("internous","internous01","test");
+
+INSERT INTO login_admin_transaction(admin_id,admin_pass,admin_name) VALUES("admin","0000","adminUser");

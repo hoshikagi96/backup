@@ -21,6 +21,11 @@
       <result name="error">login.jsp</result>
     </action>
 
+     <action name="AdminLoginAction" class="com.internousdev.ecsite.action.AdminLoginAction" method="execute">
+      <result name="success">adminPage.jsp</result>
+      <result name="error">adminLogin.jsp</result>
+    </action>
+
     <action name="UserCreateAction" class="com.internousdev.ecsite.action.UserCreateAction" method="execute">
       <result name="success">userCreate.jsp</result>
       <result name="back">login.jsp</result>

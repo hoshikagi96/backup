@@ -11,7 +11,7 @@ public class BuyItemCompleteDAO {
   private DBConnector dbConnector = new DBConnector();
   private Connection connection = dbConnector.getConnection();
   private DateUtil dateUtil = new DateUtil();
-  private String sql = "INSERT INTO user_buy_item_transaction (item_transaction_id, total_price, total_count, user_master_id, pay, insert_date) VALUES(?, ?, ?, ?, ?, ?)";
+  private String sql = "INSERT INTO user_buy_item_transaction (item_transaction_id, total_price, total_count, user_master_id, pay, insert_date) VALUES(?, ?, ?, ?, ?, NOW())";
   /**
 	 * 商品購入情報登録メソッド
 	 *
@@ -31,7 +31,7 @@ public class BuyItemCompleteDAO {
 		  preparedStatement.setString(3, total_count);
 		  preparedStatement.setString(4, user_master_id);
 		  preparedStatement.setString(5, pay);
-		  preparedStatement.setString(6, dateUtil.getDate());
+
 
 		  preparedStatement.execute();
 
